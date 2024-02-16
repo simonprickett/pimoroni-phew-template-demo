@@ -10,7 +10,7 @@
             <h1>Pimoroni Phew Template Demo</h1>
             <p>Here's a list of tuples representing the UK top 10 singles from 12 March 1983!</p>
             <ul>
-                {{ "".join(f"<li><b>{str(e[0])}.</b> {e[3]} - <i>{e[2]}</i>" for e in top_ten) }}
+                {{ "".join(f"<li><b>{str(e[0])}.</b> {e[3]} - <i>{e[2]}</i></li>" for e in top_ten) }}
             </ul>
         </div>
     </body>
