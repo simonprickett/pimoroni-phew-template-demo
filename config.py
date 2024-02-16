@@ -1,2 +1,2 @@
-WIFI_SSID = "ssmesh"
-WIFI_PASSWORD = "BBCm1Cr023763"
+WIFI_SSID = "your ssid here"
+WIFI_PASSWORD = "your password here"
