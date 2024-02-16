@@ -1,0 +1,6 @@
+*.pyc
+*.bak
+*.swp
+*.tmp
+venv/
+.DS_Store

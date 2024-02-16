@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pimoroni Phew Template Demo</title>
+        {{render_template("templates/styles.html")}}
+    </head>
+    <body>
+        <div class="page">
+            <h1>Pimoroni Phew Template Demo</h1>
+            <p>Here's a list of tuples representing the UK top 10 singles from 12 March 1983!</p>
+            <ul>
+                {{ "".join(f"<li><b>{str(e[0])}.</b> {e[3]} - <i>{e[2]}</i>" for e in top_ten) }}
+            </ul>
+        </div>
+    </body>
+</html>
